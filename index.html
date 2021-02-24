@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Cooking monster</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light navbar-color">
+        <div id="navbar-color" class="container-fluid">
+            <a style="font-weight: 700;padding-left: 5%;" class="navbar-brand text-dark">Cooking meal</a>
+            <div class="d-flex">
+                <a style="font-weight: 600;" class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+                <a style="font-weight: 600;" class="nav-link active text-dark" aria-current="page" href="#">About</a>
+                <a style="font-weight: 600;" class="nav-link active text-dark" aria-current="page" href="#">Recipes</a>
+                <a style="font-weight: 600;" class="nav-link active text-dark" aria-current="page" href="#">Blog</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- search box -->
+    <div id="search-box" class="d-flex">
+        <input id="getInput" class="form-control " type="search" placeholder="Search for meal..">
+        <button id="searchBtn" type="submit">Search</button>
+    </div>
+
+    <!-- single meal -->
+    <div id="IngredientOfMeal"></div>
+
+    <!-- When get Wrong input-->
+    <div id="errorMessage"></div>
+
+    <!-- show mealList -->
+    <div id="mealList"> </div>
+
+    <!-- javascript -->
+    <script src="apps.js"></script>
+
+</body>
+
+</html>

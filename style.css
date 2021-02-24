@@ -1,0 +1,67 @@
+body{
+    background-color: #EDD263;
+}
+.meal-item img{
+    width: 100%;
+    display: block;
+}
+.meal-item{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+   
+
+}
+#mealList{
+     display: grid;
+    grid-template-columns: repeat(4,.5fr);
+   column-gap: 10px;
+   row-gap: 15px;
+   margin-top: 20px;
+   margin-left: 50px;
+   
+}
+#search-box{
+    margin-left: 35%;
+    margin-top: 10%;
+}
+#getInput{
+    padding: 7px;
+    width: 30%;
+}
+#searchBtn{
+    padding: 7px;
+    background-color: #3B2D64;
+    font-weight: 900;
+    color: white;
+}
+#IngredientOfMeal img{
+    width: 300px;
+
+}
+#IngredientOfMeal
+{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+li {
+    list-style: none;
+  }
+li:before {
+    content: "☑";
+}
+#errorMessage{
+    color:black;
+    padding-left: 35%;
+    font-weight: 700;
+    font-size: larger;
+    font-style: inherit;
+}
+.navbar-color{
+    background-color:  #EDD263;
+}
+.text-bold{
+    font-weight: bold;
+}
